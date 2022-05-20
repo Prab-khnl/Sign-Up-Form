@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="left-container">
+            <div class="logo-section">
+                <img src="./img/odin-lined.png">
+                <h1>WEB DEV</h1>
+            </div>
+        </div>
+        <div class="right-container">
+           <div class="section">
+            <div id="content">
+                <div class="message">
+                    <div class="blank"> Welcome to Web Development</div>
+         
+                    <div class="messages"><h2> A place where magic begins!</h2>
+                    <br>
+                    <h2>You know you want to</h2></div>
+                </div>
+            </div>
+            <div id="form">
+                <h1>Let's do this!</h1>
+                <form action="#" method="get">
+                <fieldset id="fieldset">
+                    <div class="left">
+                        <label for="Firstname">  FIRST NAME *</label>
+                        <br>
+                        <input type="text" name="first_name" id="Firstname" placeholder="Odin">
+                        <br>
+                        <label for="Email"> EMAIL *</label>
+                        <br>
+                        <input type="email" name="email" id="Email" placeholder="Web@example.com">
+                        <br>
+                        <label for="password"> PASSWORD *</label>
+                        <br>
+                        <input type="password" name="password" id="password" minlength="8" maxlength="15" >
+                    </div>
+
+                    <div class="right">
+                        <label for="Lastname">  LAST NAME *</label>
+                        <br>
+                        <input type="text" name="last_name" id="Lastname"  placeholder="Project">
+                        <br>
+                        <label for="phone">PHONE NUMBER</label>
+                        <br>
+                        <input type="email" name="phone_number" id="phone"  placeholder="AAA-AA-AAAAA">
+                        <br>
+                        <label for="cpassword"> CONFIRM PASSWORD *</label>
+                        <br>
+                        <input type="password" name="cpassword" id="cpassword" minlength="8" maxlength="15">
+                    </div>
+                </fieldset>
+                <br>
+                <hr>
+                <button type="submit">Create account</button>
+                <br>
+                <p>Aleady have an account? <span><a href="https://prab-khnl.github.io/landing-page/">Log in</a></span></p>
+            </form>
+            </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
